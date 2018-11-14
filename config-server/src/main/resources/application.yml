@@ -6,4 +6,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/<github-username>/app-config.git
+          uri: https://github.com/zishanjms/app-config.git
+
+          
+management:
+  security:
+    enabled: false
